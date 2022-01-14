@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;602&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --borderblue:blue;
+    --bgColor:rgb(238, 238, 238);
+    --greenColor:#20c997;
+    --Primarygrey:rgb(168, 168, 168);
+    --secondaeygrey:rgb(227, 227, 228);
+    --PrimaryfontFamily:'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--bgColor)!important;  
+    font-family: var(--PrimaryfontFamily)!important;
+    font-size: 12.5px !important;
+    font-weight: 500 !important;
+    height:680px;
+}
+
+/*-----style des listes-----*/
+ul li{
+    list-style: none;
+    margin-left: -2rem;  
+    line-height: 20px;  
+}
+
+/*------style du header----*/
+header{
+    padding:1rem;
+    margin-bottom: 2rem;
+}
+
+header button{
+    margin-left: 6rem;
+}
+
+/*------style du box info----*/
+
+.info-box{
+    padding:0.7rem 0.5rem;
+    display: flex;
+    align-items: center;
+ }
+
+.info-box .photo{
+    border:2px var(--borderblue) solid;
+    border-radius: 4px;
+    height:90px;
+    margin-right: 15px;
+    
+}
+
+.info-box ul li{
+    line-height: 24px;  
+}
+
+.border{
+    border-radius: 10px;
+    border: none;
+}
+
+.section{
+    justify-content:space-between;
+}
+.section .box-content{
+background-color: white;  
+padding:1rem 1.2rem;
+margin-top:1.2rem;
+}
+.section .box-content:nth-child(1){
+    width: 400px;
+}
+.section .box-content:nth-child(2){
+    width: 720px;
+} 
+.section ul li:nth-child(2){
+    font-weight: 600;
+} 
+
+
+/*style des icons*/
+.icon-contact{
+    color:var(--greenColor);
+    margin-right:0.5rem;
+}
+.section .title{
+    color:var(--Primarygrey)  ;
+    border-bottom: 2px var( --secondaeygrey) solid;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+    font-size: 14px;
+    
+}
+
+.icon-setting{
+    display: flex;
+    align-items:center ;
+    color:var(--Primarygrey) ;
+
+
+}
